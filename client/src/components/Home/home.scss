@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+.main {
+    background-color: #333;
+
+    &__title {
+        cursor: pointer;
+        font-family: 'Roboto';
+        display: block;
+        color: white;
+        font-size: 40px;
+        text-align: center;
+        transition: all 700ms ease 0s;
+
+        &:first-child {
+            margin-top: 10%;
+        }
+
+        &:not(:last-child) {
+            margin-bottom: 30px;
+        }
+
+        &:hover {
+            color: rgb(216, 188, 153);
+        }
+    }
+}
